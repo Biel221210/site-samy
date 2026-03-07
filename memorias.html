@@ -9,7 +9,19 @@
         .caixa {
         width: 500px;
         margin: 0 auto;
-        }   
+        }
+        
+        .botao{
+        background-color: #ff4fd8; /* cor do fundo */
+        color: white;              /* cor do texto */
+        border: none;              /* tira a borda cinza */
+        padding: 8px 16px;         /* espaço dentro do botão */
+        border-radius: 6px;        /* deixa arredondado */
+        cursor: pointer;
+        }
+        .botao:hover{
+        background-color: #e13cc0; /* muda cor quando passa o mouse */
+        }
     </style>
     <audio controls>
         <source src="music_site/music_site.flp" type="audio/mpeg">
@@ -39,6 +51,8 @@
         </p>
         </div>
         <div class="caixa">
-        <a href="../index.html"><button>Voltar para o início</button></a>
+        <a href="./index.html">
+            <button class="botao">Voltar para o início</button>
+        </a>
         </div>
     </body>
